@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Alunelle — Private Cycle & Rhythm Tracker</title>
+  <style>
+    :root {
+      --paper: #FBF6F1;
+      --card: #FFFFFF;
+      --ink: #2E2430;
+      --muted: #7A6C72;
+      --plum: #7A4E6B;
+      --line: #EADFD8;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+      background: var(--paper);
+      color: var(--ink);
+      line-height: 1.65;
+    }
+    header {
+      max-width: 820px;
+      margin: 0 auto;
+      padding: 56px 24px 32px;
+      text-align: center;
+    }
+    .badge {
+      display: inline-block;
+      background: var(--plum);
+      color: #fff;
+      font-size: 12px;
+      font-weight: 700;
+      letter-spacing: 0.08em;
+      padding: 6px 14px;
+      border-radius: 999px;
+      text-transform: uppercase;
+    }
+    h1 {
+      font-family: Georgia, "Times New Roman", serif;
+      font-size: 42px;
+      margin: 16px 0 10px;
+    }
+    nav {
+      margin-top: 20px;
+      display: flex;
+      gap: 16px;
+      justify-content: center;
+      flex-wrap: wrap;
+    }
+    nav a {
+      color: var(--plum);
+      text-decoration: none;
+      font-weight: 600;
+      padding: 6px 12px;
+      border-radius: 8px;
+      background: #F3EBE4;
+    }
+    main {
+      max-width: 820px;
+      margin: 0 auto;
+      padding: 0 24px 72px;
+      display: grid;
+      gap: 28px;
+    }
+    section {
+      background: var(--card);
+      border: 1px solid var(--line);
+      border-radius: 20px;
+      padding: 28px 32px;
+    }
+    h2 {
+      font-family: Georgia, "Times New Roman", serif;
+      margin-top: 0;
+      color: var(--plum);
+    }
+    footer {
+      text-align: center;
+      padding: 24px;
+      color: var(--muted);
+      font-size: 14px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <span class="badge">100% On-Device Privacy</span>
+    <h1>Alunelle: Cycle & Rhythm</h1>
+    <p>A gentle companion for your cycle. Your data never leaves your hands.</p>
+    <nav>
+      <a href="#privacy">Privacy Policy</a>
+      <a href="#terms">Terms of Use</a>
+      <a href="#support">Support</a>
+    </nav>
+  </header>
+
+  <main>
+    <section id="privacy">
+      <h2>Privacy Policy</h2>
+      <p><strong>Effective date:</strong> November 2026</p>
+      <p><strong>Summary:</strong> We do not run servers that store your cycle data. Everything you log in Alunelle lives on your device, and — if you enable iCloud sync — in your personal Apple iCloud account.</p>
+      <ul>
+        <li><strong>No account & no tracking:</strong> Alunelle never asks for your name, email, or phone number, and embeds zero advertising or analytics SDKs.</li>
+        <li><strong>On-device encryption:</strong> Free-text notes are encrypted on device with AES-GCM using a 256-bit key stored in your iOS Keychain.</li>
+        <li><strong>Apple Health (optional):</strong> If you grant permission, Alunelle reads/writes menstrual flow and basal body temperature directly with Apple HealthKit on your device.</li>
+        <li><strong>Delete anytime:</strong> Delete all local and iCloud data anytime from Settings → Data & Privacy → Delete all data.</li>
+      </ul>
+    </section>
+
+    <section id="terms">
+      <h2>Terms of Use & Medical Disclaimer</h2>
+      <p><strong>Not medical advice or contraception:</strong> Alunelle is a personal cycle and wellness journal. Its predictions are statistical estimates and must not be used as a contraceptive method or to diagnose, treat, or prevent any medical condition.</p>
+      <p><strong>Alunelle Plus Subscriptions:</strong> Payment is charged to your Apple ID account. Subscriptions renew automatically unless cancelled at least 24 hours before the end of the current period in Settings → Apple Account → Subscriptions. Standard Apple EULA applies: <a href="https://www.apple.com/legal/internet-services/itunes/dev/stdeula/">Apple Standard EULA</a>.</p>
+    </section>
+
+    <section id="support">
+      <h2>Support & Contact</h2>
+      <p>Need help with Alunelle, subscriptions, or data export? Reach out directly:</p>
+      <p><strong>Email:</strong> <a href="mailto:bilalemre_gulsen@hotmail.com">bilalemre_gulsen@hotmail.com</a></p>
+    </section>
+  </main>
+
+  <footer>
+    &copy; 2026 Bilal Emre Gülşen. All rights reserved.
+  </footer>
+</body>
+</html>
